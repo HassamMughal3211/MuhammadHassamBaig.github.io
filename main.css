@@ -1,0 +1,171 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.flex{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box{
+    border-radius: 30%;
+}
+.container{
+    height: 300vh;;
+    width: 100vw;
+    display: flex;
+    flex-flow: column;
+}
+.head{
+    flex: 1;
+    display: flex;
+}
+.c1{
+    flex: 1.5 ;
+    display: flex;
+    flex-flow: column;
+}
+.heading{
+    flex: 1;
+ }
+ .block{
+     height: 63%;
+     width: 37%;
+    background: black;
+    font-size: 300%;
+    color: white;
+
+ }
+.personalInfo{
+    flex: 4;
+    color: black;
+    font-size: 400%;
+}
+.scroll{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.hire{
+    height: 40%;
+    width: 30%;
+    color: white;
+    background: black;
+    font-size: 100%;
+}
+.c2{
+    flex: 1.1;  
+    background:black;
+}
+.profileImage{
+    height: 90%;
+    width: 90%;
+    background-image: url(./profile.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+
+.main{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    background: black   ;
+
+}
+.Skills{
+    flex: 1;
+    padding-top: 2%;
+    color: white;
+    font-size: 60px;
+}
+.content{
+    flex: 9;
+    display: flex;
+
+}
+.project{
+    flex: 1;
+    border-radius: 10%;
+    margin: 4%;
+    background: rgb(252, 250, 250);
+    display: flex;
+    flex-flow: column;
+}
+.r1{
+    flex: 1;
+    background: white;
+}
+.r2{
+    flex: 2;
+    font-size: 200%;
+}
+.r11{
+    height: 100%;
+    width: 100%;
+    margin-left: 20%;
+    background-image: url(./images/html.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+}
+.r22{
+    height: 75%;
+    width: 100%;
+    margin-left: 35%;
+    background-image: url(./images/js.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.r33{
+    height: 100%;
+    width: 100%;
+    margin: 10%;
+    background-image: url(./images/asp.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.footer{
+    flex:1;
+    background: rgb(252, 251, 251);
+    display: flex;
+}
+.contactus{
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+    background: black;
+
+}
+.contactHead{
+    flex: 1;
+    font-size: 500%;
+    padding-top: 10%;
+    justify-content: left;
+    color: rgb(252, 250, 250);
+}
+.contactDetails{
+    flex: 3;
+    font-size: 300%;
+    padding-top: 10%;
+    color: rgb(247, 244, 244);
+}
+.links{
+    flex: 1.5;
+    margin-left: 8%;
+    background-image: url(./images/mail.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.pngs{
+    flex: 2;
+    font-size: 200%;
+    color: white;
+}
